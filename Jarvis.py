@@ -87,7 +87,8 @@ if __name__=="__main__":
             os.startfile(os.path.join(music_dir,songs[0]))
         elif 'time' in query:
             strTime = datetime.datetime.now().strftime("%H:%M:%S")    
-            speak(f"Sir, the time is {strTime}") #commit
+            speak(f"Sir, the time is {strTime}") 
+        
 
             
 
